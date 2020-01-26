@@ -126,7 +126,7 @@ john.tuttle
 
 Unless otherwise told, all program assignments should be Java Gradle Projects.
 
-You will work on the assignment in your repo. Check the "creating-java-gradle-project.md" file
+You will work on the assignment in your repo. Check the [creating-java-gradle-project.md](https://github.com/cordell-stocker/CS313.SP20.Student.Resources/blob/master/creating-java-gradle-project.md) file
 for instructions.
 
 The program will need to follow a similar structure as written assignments.
