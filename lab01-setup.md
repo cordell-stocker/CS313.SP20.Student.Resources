@@ -6,6 +6,7 @@ install it yourself.
 Make sure the following are installed:
 - [Git](https://git-scm.com/downloads)
   - Linux: Run `sudo apt install git`
+  - Windows: https://git-scm.com/downloads
 - [Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
   - Linux: Run `sudo apt install openjdk-11-jdk`
 - [NetBeans 11 Linux install](https://flathub.org/apps/details/org.apache.netbeans)
@@ -18,13 +19,7 @@ linux like terminal!
 ## How To Add an SSH key to your GitHub
 
 Follow these instructions: 
-[howto-add-sshkey-to-github.md](https://github.com/cordell-stocker/CS313.SP20.Student.Resources/blob/master/howto-add-sshkey-to-github.md)
-
-## Set Your Email and Name in Git
-
-Run the following commands:
-- `git config --global user.email "<email>"`
-- `git config --global user.name "<name>"`
+[howto-add-sshkey-to-github.md](https://github.com/cordell-stocker/CS.Resources/blob/master/howto-add-sshkey-to-github.md)
 
 ## Cloning your repo
 
@@ -101,7 +96,7 @@ john.tuttle
 
 Unless otherwise told, all program assignments should be Java Gradle Projects.
 
-You will work on the assignment in your repo. Check the [howto-create-java-gradle-project.md](https://github.com/cordell-stocker/CS313.SP20.Student.Resources/blob/master/howto-create-java-gradle-project.md) file
+You will work on the assignment in your repo. Check the [howto-create-java-gradle-project.md](https://github.com/cordell-stocker/CS.Resources/blob/master/howto-create-java-gradle-project.md) file
 for instructions.
 
 The program will need to follow a similar structure as written assignments.
@@ -122,4 +117,23 @@ john.tuttle
 |   |   |-- programs
 |   |   |   |-- hw01
 |   |   |   |   | <gradle project>
+```
+
+## Shhhhhhhhh....
+
+If you are reading this before doing all the steps above, congratz on reading the whole document before doing anything! Here's a present:
+
+```
+mkdir cs313
+cd cs313
+mkdir sp20
+cd sp20
+mkdir written
+mkdir programs
+echo "empty" > written/temp.txt
+echo "empty" > programs/temp.txt
+cd ../..
+git add .
+git commit -m "init cs313-sp20"
+git push origin master
 ```
