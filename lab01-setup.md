@@ -32,33 +32,33 @@ Run the following commands:
 1. go to https://github.com/BlackburnCollege and find your first.last repo
 1. Click "Clone or download"
    - Make sure you are using the SSH link (Click "Use SSH"/"Use HTTPS" to switch between the two).
-1. Enter `git clone <repo-link>`
+1. Run `git clone <repo-link>`
    - Example: `git clone git@github.com:BlackburnCollege/john.tuttle.git`
-1. Enter `cd <repo-name>`
+1. Run `cd <repo-name>`
    - Example: `cd john.tuttle`
    - ***Note: This is the repo's root directory.***
 
 ## CS313 Setup
 
-1. Add the following lines to the `.gitigore` file:
+1. Add the following lines to the `.gitignore` file:
    - `*/**/nbproject`
    - `*/**/.idea`
    - `*/**/.gradle`
    
    If you do not have a `.gitignore` file, then create one at the repo's root directory.
-1. Enter `mkdir cs313` and change into that directory.
-1. Enter `mkdir sp20` and change into that directory.
-1. Enter `mkdir written`
-1. Enter `mkdir programs`
+1. Run `mkdir cs313` and change into that directory.
+1. Run `mkdir sp20` and change into that directory.
+1. Run `mkdir written`
+1. Run `mkdir programs`
 1. Create and save a temp file inside both the `programs` and `written` directorys.
    - Example: `echo "empty" > temp.txt`
 1. Change back to the repo's root directory.
-1. Enter `git add .`
+1. Run `git add .`
    - This stages all files that have been created/modified/deleted to be committed
-1. Enter `git commit -m "<message>"`
+1. Run `git commit -m "<message>"`
    - Example `git commit -m "added base folder structure"`
    - This saves the staged changes to the local repo.
-1. Enter `git push origin master`
+1. Run `git push origin master`
    - This sends the current state of your local repo to the remote repo (we use GitHub to store 
    our remote repos). More specifically to the `master` branch, which should be your default.
 
