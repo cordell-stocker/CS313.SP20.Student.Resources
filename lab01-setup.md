@@ -1,13 +1,16 @@
 # Setting Up Your 313 Repo
 
+If a Rlab/Plab machine on the linux or Windows side does not already the following installed, please notify a TA. Do NOT
+install it yourself.
+
 Make sure the following are installed:
 - [Git](https://git-scm.com/downloads)
   - Linux: Run `sudo apt install git`
 - [Java 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
   - Linux: Run `sudo apt install openjdk-11-jdk`
 - [NetBeans 11 Linux install](https://flathub.org/apps/details/org.apache.netbeans)
-  - If a Rlab/Plab machine on the linux or Windows side does not already have NetBeans installed, please notify
-  a TA. Do NOT install it yourself.
+
+## Terminals
 
 If using Windows, use Git Bash as the terminal. Right-click -> "Git Bash Here", now you have a
 linux like terminal!
@@ -50,6 +53,12 @@ trusted computer you want full access to your GitHub account.
 Note: If using the Rlab/Plab machines on Ubuntu, you only need to do this once and the key will work
 on any Rlab and Plab machine \(on the ubuntu side\). If you're curious as to why this works, you can ask. Otherwise accept
 that your life has been made slightly easier.
+
+## Set Your Email and Name in Git
+
+Run the following commands:
+- `git config --global user.email "<email>"`
+- `git config --global user.name "<name>"`
 
 ## Cloning your repo
 
@@ -126,7 +135,7 @@ john.tuttle
 
 Unless otherwise told, all program assignments should be Java Gradle Projects.
 
-You will work on the assignment in your repo. Check the [creating-java-gradle-project.md](https://github.com/cordell-stocker/CS313.SP20.Student.Resources/blob/master/creating-java-gradle-project.md) file
+You will work on the assignment in your repo. Check the [howto-create-a-java-gradle-project.md](https://github.com/cordell-stocker/CS313.SP20.Student.Resources/blob/master/howto-create-a-java-gradle-project.md) file
 for instructions.
 
 The program will need to follow a similar structure as written assignments.
