@@ -30,19 +30,37 @@ certain things take years to even begin to actually understand \(e.x. JavaFX\).
 
 ## Written Assignments
 
+### Naming Conventions
+
+Files must be named properly as automated scripts will make copies of your files!
+
 Homework naming convention: `<homework-title>-<your-last-name>.pdf`
 - `<homework-title>` will typically be something like `hw01`
 
+Examples:
+- `hw01-tuttle.pdf`
+- `hw02-tuttle.pdf`
+
+If you have multiple files to turn in use the naming convention: `<homework-title>-file<file-number>-<last-name>`
+
+Examples:
+- `hw05-file1-tuttle.pdf`
+- `hw05-file2-tuttle.pdf`
+- `hw05-file3-tuttle.pdf`
+
 ### Turning in:
+
+**The turnin directory MUST be named properly, as automated scripts will be used to make copies of your homework!**
 
 1. Inside your repo's `cs313/sp20/written` directory, create a directory for the homework.
    - Typically this will be along the lines of `hw01`
-2. Add your `pdf` submission to the appropriate homework folder.
+2. Add your `pdf` submission\(s\) to the appropriate homework folder.
 3. Go back to the repo's root directory and run:
    - `git add .`
    - `git commit -m "<message>"` \(message might be something like "turned in written hw01"\)
    - `git push origin master`
 
+Examples:
 ```
 john.tuttle
 |-- cs313
@@ -52,6 +70,17 @@ john.tuttle
 |   |   |   |   |-- hw01-tuttle.pdf
 |-- (other folders/files left out for brevity)
 ```
+```
+john.tuttle
+|-- cs313
+|   |-- sp20
+|   |   |-- written
+|   |   |   |-- hw05
+|   |   |   |   |-- hw05-file1-tuttle.pdf
+|   |   |   |   |-- hw05-file2-tuttle.pdf
+|   |   |   |   |-- hw05-file3-tuttle.pdf
+|-- (other folders/files left out for brevity)
+```
 
 ## Program Assignments
 
@@ -59,6 +88,8 @@ Unless otherwise told, all program assignments should be Java Gradle Projects.
 
 You will work on the assignment in your repo. Check the [howto-create-java-gradle-project.md](https://github.com/cordell-stocker/CS.Resources/blob/master/howto-create-java-gradle-project.md) file
 for instructions.
+
+**The turnin directory MUST be named properly, as automated scripts will be used to make copies of your homework!**
 
 The program will need to follow a similar structure as written assignments.
 
