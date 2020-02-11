@@ -8,8 +8,7 @@ You will be creating a Java application using Gradle build system that you can t
    - Example: `cd john.tuttle`
 1. `cd cs313/sp20` 
 1. cd into your programs directory, `cd programs`
-1. `mkdir hw--` , where "`--`" represents the assignment number.
-1. `cd hw--`
+1. `cd hw--`, where "`--`" represents the assignment number.
 
 ## Getting Started
 
