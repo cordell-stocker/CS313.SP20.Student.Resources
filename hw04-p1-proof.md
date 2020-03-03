@@ -1,6 +1,7 @@
 1.
 ```
-Conjecture: Given a binary tree T with n nodes, the number of degree-2 nodes is one less than the number of leaf nodes.
+Conjecture: Given a binary tree T with n nodes, the number of degree-2 nodes is
+one less than the number of leaf nodes.
 
 Proof(Induction):
     Basis step:
@@ -8,7 +9,8 @@ Proof(Induction):
           X
          / \
         X   X
-        By inspection there are 1 degree-2 nodes and 2 leaf nodes. Note there is one less degree-2 node than leaf nodes.
+        By inspection there are 1 degree-2 nodes and 2 leaf nodes. Note there is 
+        one less degree-2 node than leaf nodes.
 
         By the conjecture, given the 2 leaf nodes:
         2 - 1 = 1 degree-2 nodes, which is true.
@@ -16,9 +18,12 @@ Proof(Induction):
         Basis step holds.
     
     Inductive step:
-        IH: Assume a binary tree T with n nodes will have one less degree-2 nodes than there are leaf nodes, then a binary tree T' with n + 1 nodes will also have one less degree-2 nodes than there are leaf nodes.
+        IH: Assume a binary tree T with n nodes will have one less degree-2 nodes than 
+        there are leaf nodes, then a binary tree T' with n + 1 nodes will also have one 
+        less degree-2 nodes than there are leaf nodes.
 
-        Let T have N degree-2 nodes and L lead nodes, where N and L are integers greater than or equal to 0 and N = L - 1.
+        Let T have N degree-2 nodes and L lead nodes, where N and L are integers greater 
+        than or equal to 0 and N = L - 1.
 
         Note there are two cases.
 
@@ -30,7 +35,8 @@ Proof(Induction):
         This means the degree-1 node becomes a degree-2 node and we gain a leaf node.
         So N + 1 = L - 1 + 1 => N = L - 1 which is unchanged.
 
-        Since in both cases the number of degree-2 nodes was always one less than then number of lead nodes, the inductive step holds.
+        Since in both cases the number of degree-2 nodes was always one less than then 
+        number of lead nodes, the inductive step holds.
     
     Conclusion:
     Because the basis and inductive step both hold, the conjecture holds true. QED
