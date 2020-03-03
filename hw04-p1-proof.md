@@ -11,7 +11,7 @@ Proof(Induction):
         By inspection there are 1 degree-2 nodes and 2 leaf nodes. Note there is one less degree-2 node than leaf nodes.
 
         By the conjecture, given the 2 leaf nodes:
-        2 - 1 = 1 degree-2 nodes, which is truee.
+        2 - 1 = 1 degree-2 nodes, which is true.
 
         Basis step holds.
     
